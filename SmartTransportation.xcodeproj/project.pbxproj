@@ -15,6 +15,12 @@
 		3C3703251D99ED830092CAC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3703231D99ED830092CAC5 /* LaunchScreen.storyboard */; };
 		3C3703301D99ED830092CAC5 /* SmartTransportationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C37032F1D99ED830092CAC5 /* SmartTransportationTests.m */; };
 		3C37033B1D99ED830092CAC5 /* SmartTransportationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C37033A1D99ED830092CAC5 /* SmartTransportationUITests.m */; };
+		3C3703491D99ED990092CAC5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3703481D99ED990092CAC5 /* MapKit.framework */; };
+		3C37034B1D99EDC70092CAC5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C37034A1D99EDC70092CAC5 /* CoreLocation.framework */; };
+		3C37034D1D99EDDB0092CAC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C37034C1D99EDDB0092CAC5 /* UIKit.framework */; };
+		3C37034F1D99EE600092CAC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C37034E1D99EE600092CAC5 /* CoreGraphics.framework */; };
+		3C3703511D99EE710092CAC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3703501D99EE710092CAC5 /* Foundation.framework */; };
+		3C47E9AC1D9B6E0400D1A003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C47E9AB1D9B6E0400D1A003 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		3C3703361D99ED830092CAC5 /* SmartTransportationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTransportationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C37033A1D99ED830092CAC5 /* SmartTransportationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartTransportationUITests.m; sourceTree = "<group>"; };
 		3C37033C1D99ED830092CAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3703481D99ED990092CAC5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3C37034A1D99EDC70092CAC5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3C37034C1D99EDDB0092CAC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C37034E1D99EE600092CAC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C3703501D99EE710092CAC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C47E9AB1D9B6E0400D1A003 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		3C47E9AD1D9B6E4900D1A003 /* MKDirections-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKDirections-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3703511D99EE710092CAC5 /* Foundation.framework in Frameworks */,
+				3C37034F1D99EE600092CAC5 /* CoreGraphics.framework in Frameworks */,
+				3C37034D1D99EDDB0092CAC5 /* UIKit.framework in Frameworks */,
+				3C37034B1D99EDC70092CAC5 /* CoreLocation.framework in Frameworks */,
+				3C3703491D99ED990092CAC5 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,11 @@
 		3C3703091D99ED820092CAC5 = {
 			isa = PBXGroup;
 			children = (
+				3C3703501D99EE710092CAC5 /* Foundation.framework */,
+				3C37034E1D99EE600092CAC5 /* CoreGraphics.framework */,
+				3C37034C1D99EDDB0092CAC5 /* UIKit.framework */,
+				3C37034A1D99EDC70092CAC5 /* CoreLocation.framework */,
+				3C3703481D99ED990092CAC5 /* MapKit.framework */,
 				3C3703141D99ED820092CAC5 /* SmartTransportation */,
 				3C37032E1D99ED830092CAC5 /* SmartTransportationTests */,
 				3C3703391D99ED830092CAC5 /* SmartTransportationUITests */,
@@ -108,7 +131,6 @@
 				3C37031E1D99ED820092CAC5 /* Main.storyboard */,
 				3C3703211D99ED830092CAC5 /* Assets.xcassets */,
 				3C3703231D99ED830092CAC5 /* LaunchScreen.storyboard */,
-				3C3703261D99ED830092CAC5 /* Info.plist */,
 				3C3703151D99ED820092CAC5 /* Supporting Files */,
 			);
 			path = SmartTransportation;
@@ -117,7 +139,10 @@
 		3C3703151D99ED820092CAC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3C3703261D99ED830092CAC5 /* Info.plist */,
+				3C47E9AB1D9B6E0400D1A003 /* InfoPlist.strings */,
 				3C3703161D99ED820092CAC5 /* main.m */,
+				3C47E9AD1D9B6E4900D1A003 /* MKDirections-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -244,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3703251D99ED830092CAC5 /* LaunchScreen.storyboard in Resources */,
+				3C47E9AC1D9B6E0400D1A003 /* InfoPlist.strings in Resources */,
 				3C3703221D99ED830092CAC5 /* Assets.xcassets in Resources */,
 				3C3703201D99ED820092CAC5 /* Main.storyboard in Resources */,
 			);
@@ -496,6 +522,7 @@
 				3C3703411D99ED830092CAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C3703421D99ED830092CAC5 /* Build configuration list for PBXNativeTarget "SmartTransportationTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +531,7 @@
 				3C3703441D99ED830092CAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C3703451D99ED830092CAC5 /* Build configuration list for PBXNativeTarget "SmartTransportationUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +540,7 @@
 				3C3703471D99ED830092CAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
